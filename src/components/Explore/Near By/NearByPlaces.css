@@ -1,0 +1,58 @@
+.nearby_container .nearby_places {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 90vw;
+    height: 236px;
+    left: 84px;
+    top: 206px;
+}
+
+.nearby_container .nearby_places h1 {
+    width: 243px;
+    height: 96px;
+
+    /* Header 1/Header 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+
+    /* Orange/500 */
+
+    color: #FF9D55;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .nearby_places .navbar_nearby_places {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: 1284px;
+    height: 108px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

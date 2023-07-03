@@ -1,0 +1,366 @@
+.writereviews_container {
+    position: relative;
+    width: 100vw;
+    height: 2289px;
+    background: #FFFFFF;
+}
+
+.writereviews_container .writereviews_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 96px;
+    position: absolute;
+    width: 1260px;
+    height: 1877px;
+    left: 90px;
+    top: 231px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1260px;
+    height: 1629px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 1260px;
+    height: 1629px;
+}
+
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1260px;
+    height: 240px;
+
+    /* Black/400 */
+
+    border: 1px solid #858585;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .details .rectangle {
+    width: 303px;
+    height: 240px;
+
+    background: url("/public/assets/Moez.svg");
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .details .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 922px;
+    height: 180px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .details .info h3 {
+    width: 922px;
+    height: 108px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .details .info p {
+    width: 452px;
+    height: 48px;
+
+    /* Body 13 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/400 */
+
+    color: #858585;
+
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 1260px;
+    height: 466px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .leave_review_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 941px;
+    /* height: 418px; */
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .leave_review_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .leave_review_content textarea {
+    width: 941px;
+    height: 120px;
+    border: 1px solid #858585;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .required_text {
+    width: 941px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .required_text span {
+    width: 264px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* Black/300 */
+
+    color: #ADADAD;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .leave_review .line {
+    width: 1260px;
+    height: 0px;
+
+    /* Black/200 */
+
+    border: 1px solid #D6D6D6;
+    transform: rotate(-180deg);
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .review_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 941px;
+    height: 192px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .review_title h2 {
+    width: 499px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .review_title textarea {
+    width: 941px;
+    height: 120px;
+    border: 1px solid #858585;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1260px;
+    height: 383px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo .upload_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 288px;
+    height: 335px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo .upload_content h2 {
+    width: 240px;
+    height: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo .upload_content .upload {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 79px 93px;
+    gap: 8px;
+
+    width: 288px;
+    height: 263px;
+    background: url("/public/assets/upload.svg") no-repeat center center;
+    z-index: 2;
+    cursor: pointer;
+    border: 1px dashed #858585;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo .upload_content .upload input {
+    width: 288px;
+    height: 263px;
+    opacity: 0;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .upload_photo .line {
+    width: 1260px;
+    height: 0px;
+
+    /* Black/200 */
+
+    border: 1px solid #D6D6D6;
+    transform: rotate(-180deg);
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .checkout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1260px;
+    height: 156px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .checkout input {
+    width: 40px;
+    height: 40px;
+}
+
+.writereviews_container .writereviews_content .addreviews_data .addreviews_informations .checkout p {
+    width: 1127px;
+    height: 156px;
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.writereviews_container .writereviews_content .button_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    width: 713px;
+    height: 84px;
+}
+
+.writereviews_container .writereviews_content .button_container div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 24px 48px; */
+    gap: 8px;
+
+    width: 336px;
+    height: 84px;
+
+    /* Black/600 */
+
+    border-radius: 24px;
+}
+
+.writereviews_container .writereviews_content .button_container div button {
+    width: 100%;
+    height: 100%;
+}
+
+.writereviews_container .writereviews_content .button_container div.submit button {
+    background-color: #333333;
+    color: #fff;
+}
+
+.writereviews_container .writereviews_content .button_container div.preview button {
+    border: 1px solid #333333;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #333333;
+}

@@ -1,0 +1,65 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1250px;
+    height: 240px;
+    border: 1px solid #858585;
+}
+
+.details .rectangle {
+    width: 303px;
+    height: 240px;
+
+    background-image: url("/public/assets/Luxor.svg");
+}
+
+.details .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 922px;
+    height: 180px;
+
+}
+
+.details .info h3 {
+
+    width: 922px;
+    height: 108px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.details .info p {
+    width: 452px;
+    height: 48px;
+
+    /* Body 13 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/400 */
+
+    color: #858585;
+}

@@ -1,0 +1,42 @@
+.experience__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.experience__container .experience_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.experience__container .experience_content h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #333333;
+}
+
+.experience__container .experience_content p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #666666;
+
+}
+
+.experience__container .experiences {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 48px;
+}

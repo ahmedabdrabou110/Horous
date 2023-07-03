@@ -1,0 +1,307 @@
+.trips_container {
+    position: relative;
+    width: 1440px;
+    height: 1636px;
+
+    background: #FFFFFF;
+}
+
+.trips_container .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 1284px;
+    height: 98px;
+    left: 81px;
+    top: 44px;
+
+}
+
+.trips_container .navbar .navbar-container {
+    margin: 0;
+}
+
+.trips_container .trips_container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 881px;
+    height: 945px;
+    left: 89px;
+    top: 206px;
+}
+
+.trips_container .trips_container__content .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 881px;
+    height: 563px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trips_container .trips_container__content .content h1 {
+    width: 120px;
+    height: 72px;
+
+    /* Body/Body 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trips_container .trips_container__content .content .trips_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 881px;
+    height: 459px;
+}
+
+.trips_container .trips_container__content .content .trips_content .trips_content_navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.trips_container .trips_container__content .content .trips_content .create_trips {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 25px;
+    gap: 8px;
+
+    width: 881px;
+    height: 369px;
+
+    /* White/500 */
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.trips_container .trips_container__content .content .trips_content .create_trips .create_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 831px;
+    height: 321px;
+}
+
+.trips_container .trips_container__content .content .trips_content .create_trips .create_container .create_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 831px;
+    height: 204px;
+}
+
+
+.trips_container .trips_container__content .content .trips_content .create_trips .create_container .create_container_content .create_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 831px;
+    height: 140px;
+}
+
+.trips_container .trips_container__content .content .trips_content .create_trips .create_container .create_container_content .create_content p {
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+}
+
+.content button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 30px;
+    gap: 10px;
+
+    width: 196px;
+    height: 93px;
+    color: #fff;
+
+    /* Orange/500 */
+
+    background: #FF9D55 !important;
+    border-radius: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+}
+
+.trips_container .trips_container__content .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+
+    width: 705px;
+    height: 318px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.trips_container .trips_container__content .plans h2 {
+    width: 133px;
+    height: 72px;
+
+    /* Body/Body 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.trips_container .trips_container__content .plans .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 80px;
+    gap: 8px;
+
+    width: 705px;
+    height: 229px;
+
+    /* White/500 */
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.trips_container .trips_container__content .plans .content .plan_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 545px;
+    height: 201px;
+}
+
+.trips_container .trips_container__content .plans .content .plan_container .plan_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 545px;
+    height: 84px;
+}
+
+.trips_container .trips_container__content .plans .content .plan_container .plan_container_content p {
+    width: 545px;
+    height: 48px;
+
+    /* Body/Body 9 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.trips_container .trips_container__content .plans .content .plan_container .plan_container_content span {
+    width: 308px;
+    height: 36px;
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/400 */
+
+    color: #858585;
+
+}

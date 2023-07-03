@@ -1,0 +1,237 @@
+.explore_best_place_container .rating_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 391px;
+    height: 1232px;
+    left: 90px;
+    /* top: 120px; */
+}
+
+
+.explore_best_place_container .rating_container .map {
+    width: 391px;
+    height: 368px;
+
+    background: url(/public/assets/EgyptMap.svg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .rating_container .traveller_rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 200px 70px 24px;
+    gap: 8px;
+
+    width: 391px;
+    height: 424px;
+
+    /* White/500 */
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .rating_container .traveller_rating .traveller_rating_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 240px;
+    height: 376px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .rating_container .traveller_rating .traveller_rating_content h2 {
+    width: 240px;
+    height: 48px;
+
+    /* Header 2/regular */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.explore_best_place_container .rating_container .traveller_rating .traveller_rating_content .rates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 232px;
+    height: 296px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .rating_container .traveller_rating .traveller_rating_content .rates .rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 232px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .rating_container .traveller_rating .traveller_rating_content .rates .rate input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+
+    /* Black/300 */
+
+    /* border: 2px solid #ADADAD; */
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.explore_best_place_container .rating_container .style_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 8px;
+
+    width: 391px;
+    height: 344px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.explore_best_place_container .style_container .style_container_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 231px;
+    height: 264px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .style_container .style_container_content h2 {
+    width: 77px;
+    height: 48px;
+
+    /* Header 2/regular */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .style_container .style_container_content .style_theme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 192px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.explore_best_place_container .style_container .style_container_content .style_theme input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}

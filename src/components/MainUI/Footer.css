@@ -1,0 +1,128 @@
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100%;
+    
+}
+
+.footer__container .explore,
+.footer__container .getting__app,
+.footer__container .join,
+
+.footer__container .about {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container .explore .title,
+.footer__container .getting__app .title,
+.footer__container .join .title,
+
+.footer__container .about .title {
+    /* Footer 1 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px 0;
+
+}
+
+.footer__container .explore a,
+.footer__container .getting__app a,
+.footer__container .join a,
+
+.footer__container .about a {
+    color: #fff;
+    margin: 15px 0;
+}
+
+
+
+.footer__container .join .social {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__container .join {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__container .join .social a {
+    width: 40px;
+    height: 40px;
+    /* background-color: #0f0f0f; */
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+
+}
+
+.footer__container .join .social a:hover {
+    transform: scale(1.1);
+}
+
+.footer__container .join .new {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container .join .new h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* White/500 */
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.footer__container .join .new form {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__container .join .new form input {
+    width: 304px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 5px;
+    position: relative;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.footer__container .join .new form input::placeholder {
+
+    font-size: 14px;
+    /* identical to box height */
+
+
+    /* Black/100 */
+
+    color: #b5b2b2;
+}
+
+.footer__container .join .new form button {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 117px;
+}

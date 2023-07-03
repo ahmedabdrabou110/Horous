@@ -1,0 +1,131 @@
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 400px;
+    height: 643px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .image {
+    width: 400px;
+    height: 400px;
+
+    position: relative;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .image .favourite {
+    width: 67px;
+    height: 67px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    cursor: pointer;
+}
+
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 371px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .title .paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 311px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .title .paragraph p {
+    width: 311px;
+    height: 48px;
+
+    /* Body/Body 5 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content .top_place_component .title p {
+    width: 371px;
+    height: 144px;
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Black/400 */
+
+    color: #858585;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

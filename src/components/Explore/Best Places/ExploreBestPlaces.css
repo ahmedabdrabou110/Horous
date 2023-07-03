@@ -1,0 +1,54 @@
+.explore_best_place_container {
+    width: 100vw;
+    height: 3535px;
+
+    background: white;
+}
+
+.explore_best_place_container .navbar_best_place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 90vw;
+    height: 98px;
+    left: 81px;
+    top: 30px;
+}
+
+.explore_best_place_container .navbar_best_place .navbar-container {
+    margin: 0 !important;
+}
+
+.explore_best_place_container .navbar_best_place .navbar-container h1,
+
+.explore_best_place_container .navbar_best_place .navbar-container .links a {
+    color: #000 !important;
+}
+
+.explore_best_place_container .navbar_best_place .navbar-container .links a.active {
+    color: white !important;
+}
+
+
+
+
+
+.explore_best_place_container .popular_place_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 100vw;
+    height: 2580px;
+    left: 0px;
+    top: 1002px;
+
+}

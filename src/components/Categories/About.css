@@ -1,0 +1,511 @@
+.about_container {
+    position: absolute;
+    top: 1680px;
+    left: 89px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1260px;
+    height: 2054px;
+}
+
+.about_container .about_rating_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1260px;
+    height: 802px;
+}
+
+.about_container .about_rating_content .about_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 1260px;
+    height: 112px;
+
+}
+
+.about_container .about_rating_content .about_title h2 {
+    width: 198px;
+    height: 96px;
+
+    /* Header 3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.about_container .about_rating_content .about_title .line {
+    width: 1260px;
+    height: 0px;
+    border: 0.5px solid #ADADAD;
+}
+
+.about_container .about_rating_content .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 734px;
+    height: 658px;
+}
+
+.about_container .about_rating_content .rating .rating_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 492px;
+}
+
+.about_container .about_rating_content .rating .rating_title h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 96px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.about_container .about_rating_content .rating .rating_title h3 {
+    width: 159px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.about_container .about_rating_content .rating .stars_rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 492px;
+    height: 54px;
+
+}
+
+.about_container .about_rating_content .rating .stars_rating div {
+    width: 218px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about_container .about_rating_content .rating .stars_rating p {
+    width: 242px;
+    height: 54px;
+
+    /* Body0 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+
+}
+
+.about_container .about_rating_content .about_info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+
+    width: 734px;
+    height: 468px;
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 734px;
+    height: 288px;
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 164px;
+
+    width: 734px;
+    height: 54px;
+
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div h3 {
+    width: 155px;
+    height: 54px;
+
+    /* Body0 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div .rating_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 415px;
+    height: 48px;
+
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div .rating_container .rating_content {
+    width: 333px;
+    height: 14px;
+    position: relative;
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div .rating_container .rating_content .full {
+    position: absolute;
+    width: 314px;
+    height: 14px;
+    left: -50px;
+    top: 0px;
+    z-index: 10;
+    /* Orange/500 */
+
+    background: #FF9D55;
+    border-radius: 24px;
+
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content div .rating_container .rating_content .range {
+    position: absolute;
+    width: 333px;
+    height: 14px;
+    left: -50px;
+    top: 0px;
+
+    /* Black/100 */
+
+    background: #EBEBEB;
+    border-radius: 24px;
+
+}
+
+.about_container .about_rating_content .about_info_container .about_info_content .div .rating_container h3 {
+    width: 50px;
+    height: 48px;
+
+    /* Body/Body 9 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.about_container .about_rating_content .resume_rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    text-align: center;
+    width: 729px;
+    height: 124px;
+}
+
+.about_container .about_rating_content .resume_rating .info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_container .reviews_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1260px;
+    height: 1220px;
+}
+
+.about_container .reviews_container .write_review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1260px;
+    height: 120px;
+}
+
+.about_container .reviews_container .write_review h1 {
+    width: 265px;
+    height: 96px;
+
+    /* Header 3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+}
+
+.about_container .reviews_container .line {
+    width: 1260px;
+    height: 0px;
+
+    /* Black/300 */
+
+    border: 0.5px solid #ADADAD;
+}
+
+.about_container .reviews_container .write_review a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 51px;
+    gap: 8px;
+
+    width: 279px;
+    height: 72px;
+
+    /* Black/600 */
+    color: #fff;
+
+    background: #333333;
+    border-radius: 55px;
+}
+
+.about_container .reviews_container .review_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 85px;
+
+    width: 1254px;
+    height: 907px;
+
+}
+
+.about_container .reviews_container .review_container .review_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1254px;
+    height: 716px;
+
+}
+
+.about_container .reviews_container .review_container .review_content .first,
+.about_container .reviews_container .review_container .review_content .second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1254px;
+    height: 334px;
+
+}
+
+.about_container .reviews_container .review_container .review_content div .review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+
+    width: 615px;
+    height: 334px;
+
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 615px;
+    height: 140px;
+
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info .image {
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    background: url("/public/assets/reply.svg"), #D9D9D9;
+
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 297px;
+
+    width: 459px;
+    height: 61px;
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info .info .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 130px;
+    height: 61px;
+
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info .info .contact h4 {
+    width: 126px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.about_container .reviews_container .review_container .review_content div .review .review_info .info .contact p {
+    width: 130px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #858585;
+}
+
+.about_container .reviews_container .review_container .review_content div .review .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 615px;
+    height: 166px;
+}
+
+.about_container .reviews_container .review_container .review_content div .review .rating p {
+    width: 601px;
+    height: 120px;
+
+    /* Footer 3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+}
+
+.about_container .reviews_container .view_all {
+    width: 490px;
+    height: 106px;
+}
+
+.about_container .reviews_container .view_all a {
+    position: absolute;
+    width: 305px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    line-height: 48px;
+    color: #333333;
+
+    border: 2px solid #000000;
+    border-radius: 55px;
+}

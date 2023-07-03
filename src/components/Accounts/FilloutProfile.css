@@ -1,0 +1,63 @@
+.account_profile_container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 763px;
+    height: 148px;
+    left: 31px;
+    top: 134px;
+}
+
+.account_profile_container .content h1 {
+    width: 573px;
+    height: 60px;
+
+    /* Body/Body 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.account_profile_container .content p {
+    width: 763px;
+    height: 72px;
+
+    /* Body/Body 6 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Black/300 */
+
+    color: #ADADAD;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,48 @@
+.edit__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 39px;
+    gap: 8px;
+
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 1145px;
+    top: 60px;
+
+
+
+    /* Orange/500 */
+
+    background: #FF9D55;
+    border-radius: 10px;
+}
+
+.edit__profile p {
+    width: 102px;
+    height: 30px;
+
+    /* Body/Body 3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* White/500 */
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

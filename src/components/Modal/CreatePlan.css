@@ -1,0 +1,77 @@
+.create_plan__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 38px;
+    gap: 8px;
+
+    position: absolute;
+    width: 542px;
+    height: 328px;
+    left: 449px;
+    top: 654px;
+
+    border: 2px solid #333333;
+    /* White/500 */
+
+    background: #FFFFFF;
+    z-index: 1500;
+}
+
+.create_plan__container .create_plan_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 466px;
+    height: 156px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.create_plan__container .create_plan_content h1 {
+    width: 220px;
+    height: 48px;
+
+    /* Body/Body 9 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Orange/500 */
+
+    color: #FF9D55;
+}
+
+.create_plan__container .create_plan_content input {
+    width: 466px;
+    height: 80px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.create_plan__container .create_plan_btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_plan__container .create_plan_btn button {
+    background-color: #333;
+    color: #fff;
+}

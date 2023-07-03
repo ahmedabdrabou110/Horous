@@ -1,0 +1,61 @@
+.share_element__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 270px;
+    height: 54px;
+    cursor: pointer;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.share_element__container .image {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    position: relative;
+}
+
+.share_element__container .image img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.share_element__container p {
+    width: 200px;
+    height: 48px;
+
+    /* Header 2/regular */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

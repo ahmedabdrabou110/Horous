@@ -1,0 +1,73 @@
+button.regestration_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 169px;
+    gap: 8px;
+    isolation: isolate;
+
+    width: 663px;
+    height: 94px;
+
+    /* Black/600 */
+
+    border: 3px solid #333333;
+    border-radius: 45px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    transition: hover 0.5s linear;
+}
+
+button.regestration_button h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+
+button.regestration_button h3.facebook {
+    margin-left: 60px;
+}
+
+button.regestration_button img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 40px;
+    top: 23px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}

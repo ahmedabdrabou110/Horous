@@ -1,0 +1,617 @@
+.museum_container {
+    position: relative;
+    width: 100vw;
+    height: 5000px;
+}
+
+.museum_container .logo_container {
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    left: -1px;
+    top: 80px;
+    margin-bottom: 20px;
+}
+
+.museum_container .logo_container .heart {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.museum_container .logo_container img.museum_logo {
+    width: 100vw;
+}
+
+.museum_container .museum_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 1261px;
+    height: 4249px;
+    left: 89px;
+    top: 1002px;
+}
+
+.museum_container .museum_content .details_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 1261px;
+    height: 3000px;
+    left: 89px;
+    top: 48px;
+}
+
+.museum_container .museum_content .details_info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 1261px;
+    height: 706px;
+}
+
+.museum_container .museum_content .details_info .info h3 {
+    /* width: 1261px;
+    height: 90px; */
+    margin-top: 30px;
+    /* header 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #333333;
+}
+
+.museum_container .museum_content .details_info .info .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 603px;
+}
+
+.museum_container .museum_content .details_info .info .details .recommended {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 603px;
+    height: 48px;
+}
+
+.museum_container .museum_content .details_info .info .details .recommended .image {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FF9D55;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.museum_container .museum_content .details_info .info .details .recommended .image img {
+    width: 16px;
+    height: 16px;
+}
+
+.museum_container .museum_content .details_info .info .details .open {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 440px;
+    height: 48px;
+}
+
+.museum_container .museum_content .details_info .info .details .open img {
+    width: 32px;
+    height: 32px;
+}
+
+.museum_container .museum_content .details_info .info .details .recommended p,
+.museum_container .museum_content .details_info .info .details .open p,
+.museum_container .museum_content .details_info .info .details .rating p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+
+}
+
+.museum_container .museum_content .details_info .info .details .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 431px;
+    height: 48px;
+
+}
+
+.museum_container .museum_content .details_info .info .details .rating div {
+    display: flex;
+    align-items: center;
+    width: 203px;
+    height: 40px;
+
+}
+
+.museum_container .museum_content .details_info .info h2 {
+    width: 1195px;
+    height: 144px;
+
+    /* Body 13 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+}
+
+.museum_container .museum_content .details_info .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 814px;
+    height: 184px;
+}
+
+.museum_container .museum_content .details_info .address h3 {
+    width: 215px;
+    height: 72px;
+
+    /* Header 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.museum_container .museum_content .details_info .address p {
+    width: 814px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-decoration-line: underline;
+
+    /* Black/400 */
+
+    color: #858585;
+}
+
+.museum_container .museum_content .details_info .dest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 117px;
+    width: 1260px;
+    height: 450px;
+}
+
+.museum_container .museum_content .details_info .get_there {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 562px;
+    height: 380px;
+
+}
+
+.museum_container .museum_content .details_info .dest .get_there h2 {
+    width: 470px;
+    height: 60px;
+
+    /* Header 5 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+}
+
+.museum_container .museum_content .details_info .dest .get_there .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 562px;
+
+
+}
+
+.museum_container .museum_content .details_info .dest .get_there .info p {
+
+    width: 562px;
+    height: 48px;
+
+    /* Header 2/regular */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+}
+
+.museum_container .museum_content .details_info .dest .amenities_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 581px;
+    height: 388px;
+}
+
+.museum_container .museum_content .details_info .dest .amenities_content div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+
+
+}
+
+.museum_container .museum_content .details_info .dest .amenities_content div img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.museum_container .museum_content .details_info .dest .amenities_content div h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 72px;
+    color: #333333;
+
+}
+
+.museum_container .museum_content .details_info .instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1260px;
+    height: 420px;
+}
+
+.museum_container .museum_content .details_info .instructions h2 {
+    width: 284px;
+    height: 72px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.museum_container .museum_content .details_info .instructions .instructions_details_container {
+
+    width: 1260px;
+    height: 324px;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.museum_container .museum_content .details_info .instructions .instructions_details_container .instructions_details_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 1762px;
+    height: 324px;
+    left: 0px;
+    top: 0px;
+}
+
+.museum_container .museum_content .details_info .instructions .instructions_details_container .instructions_details_content .info {
+    width: 566px;
+    height: 200px;
+
+    /* Orange/100 */
+
+    background: #FFF3EA;
+}
+
+.museum_container .museum_content .details_info .instructions .instructions_details_container .instructions_details_content .info h4 {
+
+
+    word-wrap: break-word;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 10px;
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.museum_container .museum_content .details_info .instructions .instructions_details_container .instructions_details_content .info p {
+    position: absolute;
+    width: 344px;
+    height: 36px;
+    margin-left: 10px;
+    top: 120px;
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+
+}
+
+.museum_container footer.footer {
+    position: absolute;
+    
+}
+
+.museum_container .popular_places_continer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    top: 1300px;
+    left: 48px;
+    width: 1260px;
+    height: 2036px;
+}
+
+.museum_container .popular_places_continer h1 {
+    width: 536px;
+    height: 72px;
+
+    /* Body/Body 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1260px;
+    height: 1916px;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1260px;
+    height: 446px;
+    border: 1px solid #333333;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container img.logo {
+    width: 684px;
+    height: 446px;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container .popular_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding: 40px;
+
+    width: 600px;
+    height: 400px;
+
+    /* White/500 */
+
+    background: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container .popular_content h2 {
+    word-break: break-all;
+    /* Body/Body 9 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+
+    /* Black/600 */
+
+    color: #333333;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container .popular_content h4 {
+    /* width: 636px; */
+    height: 72px;
+
+    /* Footer 2 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+
+}
+
+.museum_container .popular_places_continer .popular_places_content .popular_container .popular_content .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    margin-top: 20px;
+    top: 400px;
+
+}
+
+
+.museum_container .popular_places_continer .popular_places_content .popular_container .popular_content .price {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 450px;
+}
+
+.footer_bank {
+    position: absolute;
+    top:2300px !important;
+}
+
+div.bank {
+    position: relative;
+    height: 1500px !important;
+}
+
+.bank .museum_content {
+    height: 1500px !important;
+}
+.bank .museum_content .details_info {
+    height: fit-content;
+}
+
+.info p {
+    
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height */
+    
+    
+        /* Black/400 */
+    
+        color: #858585;
+}
+

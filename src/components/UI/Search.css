@@ -1,0 +1,36 @@
+.searchbar {
+    text-align: center;
+    width: 60vw;
+    background-color: white;
+    margin-left: 20vw;
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.searchbar input {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 100%;
+    width: calc(100% - 50px);
+    border-radius: 20px;
+    font-size: 28px;
+    padding-left: 15px;
+    caret-color: #FF9D55;
+}
+
+
+.searchbar input::placeholder {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.searchbar img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 20px;
+}

@@ -1,0 +1,13 @@
+.place_vists {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 2128px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+}

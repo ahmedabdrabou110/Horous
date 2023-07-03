@@ -1,0 +1,43 @@
+.place_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 400px;
+    height: 643px;
+    overflow: hidden;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.place_container .image {
+    width: 400px;
+    height: 400px;
+
+
+    /* Inside auto layout */
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.place_container .image .favourite {
+    width: 67px;
+    height: 67px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

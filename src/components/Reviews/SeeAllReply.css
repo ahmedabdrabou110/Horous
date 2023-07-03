@@ -1,0 +1,165 @@
+.seeall_reply_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 44px 38px;
+    gap: 8px;
+    width: 1260px;
+    height: 574px;
+    overflow-y: scroll;
+}
+
+.seeall_reply_container .seeall_reply_content {
+    width: 1161px;
+    height: 486px;
+}
+
+.seeall_reply_container .seeall_reply_content .reply_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 303px;
+    height: 114px;
+}
+
+.seeall_reply_container .seeall_reply_content .reply_details .image {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    text-align: center;
+    background: url("/public/assets/Reply\ profile.svg");
+}
+
+.seeall_reply_container .seeall_reply_content .reply_details h4 {
+    width: 165px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.seeall_reply_container .seeall_reply_content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 1047px;
+}
+
+.seeall_reply_container .seeall_reply_content .info textarea {
+    width: 1047px;
+    height: 168px;
+    border: 1px solid #ADADAD;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.seeall_reply_container .seeall_reply_content .info .check {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 65px;
+    margin: 20px 0;
+    width: 1047px;
+
+}
+
+.seeall_reply_container .seeall_reply_content .info .check .check_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 635px;
+    height: 36px;
+
+}
+
+.seeall_reply_container .seeall_reply_content .info .check .check_info p {
+    width: 599px;
+    height: 36px;
+
+    /* Body 13 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}
+
+.seeall_reply_container .seeall_reply_content .info .check p {
+    width: 347px;
+    height: 36px;
+
+    /* Body 13 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/400 */
+
+    color: #858585;
+
+}
+
+.seeall_reply_container .seeall_reply_content .info .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 276px;
+    height: 84px;
+}
+
+.seeall_reply_container .seeall_reply_content .info .buttons button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 10px;
+
+    width: 126px;
+    height: 84px;
+
+    /* Black/600 */
+    text-transform: capitalize;
+
+    border-radius: 24px;
+}
+
+.seeall_reply_container .seeall_reply_content .info .buttons button.ask {
+    background: #333333;
+    color: #fff;
+}
+
+.seeall_reply_container .seeall_reply_content .info .buttons button.cancel {
+    border: 1px solid #333333;
+    color: #333333;
+    background-color: #fff;
+}

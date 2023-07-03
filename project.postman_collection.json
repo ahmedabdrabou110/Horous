@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "61c50857-6836-4057-b856-b1773e711515",
+		"name": "project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20340498"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "khaled ahmed",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "khaled100",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "khaled100@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Django.123",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "Django.123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{uri}}/users/register/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"users",
+								"register",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "khaled100",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Django.123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{uri}}/auth/jwt/create/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"auth",
+								"jwt",
+								"create",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "profile",
+			"item": [
+				{
+					"name": "my_profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjY3NTQwLCJqdGkiOiJkZDZmNjFhNGM0M2I0MzQ2YjhhOTc4ZjBiYTc2YzY1YSIsInVzZXJfaWQiOjJ9.rEIyoXuQXxjR0lfM1kK1sIqeKaDVaQZZZHYAI-Y2JDQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{uri}}/api/profiles/my/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"my",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_my_profile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNzI0NTc1LCJqdGkiOiI3M2NiYmQ4OGFiMmI0NzkyOTY3OGE4NzcwMDMzNWIzMiIsInVzZXJfaWQiOjN9.YVnBKs9EmpBuYw0qxmOERVhjHDMF9P2gEcxOThVtn18",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"date_of_birth\": \"2000-09-03\",\r\n    \"phone\": \"23843038\",\r\n    \"country_code\": \"+20\",\r\n    \"bio\": \"I am a user\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{uri}}/api/profiles/my/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"my",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_profile_by_id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjY3ODY1LCJqdGkiOiJlMTI5OGMwYmMwYzY0M2M0OWVmZGZkMTgwZjI4MjcwMSIsInVzZXJfaWQiOjJ9.42NT_WHBKD1MAhClumWlKpU9ZfpwrIkvv9Li6Z1Pz98",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{uri}}/api/profiles/1/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_country_codes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{uri}}/api/profiles/country_codes/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"country_codes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "put_image_for_user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjY4MjAzLCJqdGkiOiJlOGRjOWYxMmNjMmY0N2U0OTdiZjU0MTJlYWM0ZDFjMiIsInVzZXJfaWQiOjJ9.XmXLfuuIqAlHvGPNNItuqQR5Gv6_chmc2YxnEObyLGI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/khaled/OneDrive/Pictures/images_for_project/head_first.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{uri}}/api/profiles/image/create/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"image",
+								"create",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_image_by_id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjY4MjAzLCJqdGkiOiJlOGRjOWYxMmNjMmY0N2U0OTdiZjU0MTJlYWM0ZDFjMiIsInVzZXJfaWQiOjJ9.XmXLfuuIqAlHvGPNNItuqQR5Gv6_chmc2YxnEObyLGI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{uri}}/api/profiles/image/1/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"image",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_image_by_id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNzMwOTEwLCJqdGkiOiJlNTlkYmYxZWNkN2I0N2U1YjgwNTg3Yzk4NWNlZmNhYSIsInVzZXJfaWQiOjN9.Xq5kwJE44lUcj2nq8l1Z8oDqkyy6aXZl3Bm2HROjjt0",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{uri}}/api/profiles/image/3/",
+							"host": [
+								"{{uri}}"
+							],
+							"path": [
+								"api",
+								"profiles",
+								"image",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

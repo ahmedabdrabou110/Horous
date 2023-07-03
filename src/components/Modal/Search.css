@@ -1,0 +1,135 @@
+.search__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 32px;
+    gap: 32px;
+    z-index: 1500;
+
+    position: absolute;
+    width: 1001.67px;
+    height: 662px;
+    left: 240px;
+    top: 420px;
+
+    /* White/500 */
+
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+.search__container .suggesttion_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 929px;
+    height: 494px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.search__container .suggesttion_items .near_best {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 929px;
+    height: 172px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.search__container .suggesttion_items .near_best .line {
+    width: 920.87px;
+    height: 0px;
+
+    /* Black/100 */
+
+    border: 1px solid #EBEBEB;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.search__container .popular_destination {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 929px;
+    height: 276px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.search__container .suggesttion_items .popular_destination h2 {
+    width: 929px;
+    height: 24px;
+
+    /* Footer 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.search__container .suggesttion_items .popular_destination .explore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 929px;
+    height: 220px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

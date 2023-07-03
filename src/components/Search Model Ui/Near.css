@@ -1,0 +1,58 @@
+.search__container .suggesttion_items .near_best .near_by {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 929px;
+    height: 54px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.search__container .suggesttion_items .near_best .near_by .image {
+    width: 56.64px;
+    height: 54px;
+    border-radius: 50%;
+    background: #FFE6D5;
+    position: relative;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.search__container .suggesttion_items .near_best .near_by .image img {
+    position: absolute;
+    width: 25.17px;
+    height: 24px;
+    left: 15.73px;
+    top: 15px;
+}
+
+.search__container .suggesttion_items .near_best .near_by p {
+    width: 200px;
+    height: 36px;
+
+    /* search 1 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+}

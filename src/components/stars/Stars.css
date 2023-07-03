@@ -1,0 +1,22 @@
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 176px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.images img {
+    width: 24px;
+    height: 24px;
+}

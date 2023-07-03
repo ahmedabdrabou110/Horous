@@ -1,0 +1,264 @@
+.nearby_container {
+    position: relative;
+    width: 100vw;
+    height: 2280px;
+
+    background: #fff;
+}
+
+.nearby_container .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    position: absolute;
+    width: 1284px;
+    height: 98px;
+    left: 81px;
+    top: 44px;
+
+}
+
+.nearby_container .navbar .navbar-container {
+    margin: 0;
+}
+
+
+.nearby_container .top_places_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 100vw;
+    height: 1775px;
+    left: 1px;
+    top: 507px;
+}
+
+.nearby_container .top_places_container .top_places_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 96px;
+
+    width: 1382px;
+    height: 1431px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1254px;
+    height: 763px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.nearby_container .top_places_container .top_places_contents .top_places_content h1 {
+    width: 440px;
+    height: 72px;
+
+    /* Body/Body 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container {
+    width: 1320px;
+    height: 643px;
+    overflow-x: scroll;
+    position: relative;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .top_place_giza .top_place_giza_container .top_place_giza_container_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 1696px;
+    height: 643px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1320px;
+    height: 572px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 578px;
+    height: 124px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later .title h1 {
+    width: 328px;
+    height: 72px;
+
+    /* Body/Body 4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later .title p {
+    width: 578px;
+    height: 48px;
+
+    /* Header 2/regular */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Black/500 */
+
+    color: #5C5C5C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later .items_container {
+    width: 1320px;
+    height: 400px;
+    overflow-x: scroll;
+    position: relative;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+
+.nearby_container .top_places_container .top_places_contents .plane_for_later .items_container .items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 2128px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+.nearby_container .top_places_container .footer {
+    position: absolute;
+    top: 1474px;
+    width: 100vw;
+    background: #333333;
+
+}

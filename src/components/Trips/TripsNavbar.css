@@ -1,0 +1,31 @@
+.trips_content_navbar .navbar__account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    left: 0;
+    top: 75px;
+    margin-bottom: 30px;
+}
+
+.trips_content_navbar .navbar__account a {
+    /* Body/Body 7 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Orange/500 */
+
+    color: #FF9D55;
+
+}

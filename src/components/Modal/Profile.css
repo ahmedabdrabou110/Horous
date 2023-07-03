@@ -1,0 +1,83 @@
+.profile_overlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 51px 57px;
+    gap: 8px;
+    position: absolute;
+    width: 239px;
+    height: 240px;
+    left: 1235px;
+    top: 135px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 1500;
+}
+
+
+
+.profile_overlay::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-top: -32px;
+    border-width: 16px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    z-index: 30000;
+}
+
+.profile_overlay .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 125px;
+    height: 138px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.profile_overlay .info a {
+    width: 130px;
+    height: 30px;
+
+    /* Body/Body 3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.profile_overlay .info a.account_info {
+    width: 125px;
+    height: 30px;
+}

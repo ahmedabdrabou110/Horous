@@ -1,0 +1,67 @@
+.luxor_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 8px;
+
+    width: 929px;
+    height: 86px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.luxor_content .image {
+    width: 56.64px;
+    height: 54px;
+
+
+    /* Inside auto layout */
+    border-radius: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #FFE6D5;
+    position: relative;
+}
+
+.luxor_content .image img {
+
+    position: absolute;
+    width: 25.17px;
+    height: 24px;
+    left: 15.73px;
+    top: 15px;
+}
+
+.luxor_content p {
+    width: 125px;
+    height: 36px;
+
+    /* search 1 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* Black/600 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

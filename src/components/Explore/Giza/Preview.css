@@ -1,0 +1,42 @@
+.preview_content_container {
+    width: 1260px;
+    height: 901px;
+
+    position: relative;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.preview_content_container .left {
+    position: absolute;
+    width: 622px;
+    height: 901px;
+    left: 0px;
+    top: 0px;
+
+    background: url("/public/assets/Giza1.svg");
+}
+
+.preview_content_container .right_top {
+    position: absolute;
+    width: 622px;
+    height: 440px;
+    left: 638px;
+    top: 0px;
+
+    background: url("/public/assets/Giza2.svg");
+}
+
+.preview_content_container .right_bottom {
+    position: absolute;
+    width: 622px;
+    height: 440px;
+    left: 638px;
+    top: 461px;
+
+    background: url("/public/assets/Giza3.svg");
+}

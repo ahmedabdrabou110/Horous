@@ -1,0 +1,42 @@
+.seeall_container {
+    position: relative;
+    width: 100vw;
+    height: 2826px;
+
+    background: #FFFFFF;
+}
+
+.seeall_container .seeall_content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 1260px;
+    height: 2176px;
+    left: 90px;
+    top: 213px;
+}
+
+.seeall_container .seeall_content_container .seeall_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1260px;
+    height: 1554px;
+}
+
+.seeall_container footer.footer {
+    position: absolute;
+    /* padding: 48px 90px; */
+    gap: 8px;
+    width: 100vw;
+    height: 389px;
+    left: 0px;
+    top: 2677px;
+}
